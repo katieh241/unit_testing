@@ -14,5 +14,7 @@ class TestCase (unittest.TestCase):
     def test_multiply(self):
         self.assertEqual(calc.multiply(3,5),15)
 
+    
+
 if __name__ == '__main__':
-    unittest.main()
+    unittest.main(verbosity=2)
